@@ -11,7 +11,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "wikimedia-data")
 public class WikimediaData {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
